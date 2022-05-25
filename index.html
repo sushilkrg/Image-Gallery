@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/img-gallery-logo.png">
+    <title>Image Gallery - Search the best high quality images</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <img class="logo" src="images/img-gallery-logo.png" alt="img-gallery-logo">
+            <div class="main-text">
+                <h1>Search the Best images <br> of Your Choice.</h1>
+            </div>
+
+            <!-- Search box -->
+            <form class="image-search-form">
+                <input type="text" class="search-input js-search-input" placeholder=" Search the best high quality images" autofocus required>
+
+                <button type="submit" class="btn">Search</button>
+            </form>
+        </div>
+    </main>
+
+
+    <section>
+        <div class="result-stats js-result-stats"></div>
+
+        <div class="search-results js-search-results"></div>
+
+        <div class="pagination">
+            <button class="hidden prev-btn js-prev"><a href="#top" style="text-decoration: none; color: white;">Previous page</a></button>
+
+            <button class="hidden next-btn js-next"><a href="#top" style="text-decoration: none; color: white;">Next page</a></button>
+        </div>
+    </section>
+
+
+    <footer class="footer" >
+        <p>Built with <i class="fa-solid fa-heart"></i> by Sushil Kumar </p>
+        <p class="small-char">using Unsplash api</p>
+    </footer>
+    
+    
+</body>
+</html>
+
